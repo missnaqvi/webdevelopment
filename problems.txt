@@ -1,0 +1,2 @@
+1- on resizing the web page , image is hiding
+2- <div class="row text-center text-sm-left text-md-left">

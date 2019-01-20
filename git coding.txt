@@ -1,0 +1,272 @@
+as comp@as MINGW64 /d/xampp/htdocs/pandey
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey
+$ git init
+Initialized empty Git repository in D:/xampp/htdocs/pandey/.git/
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aboutus.php
+        action_page.php
+        assets/
+        contact.php
+        footer.php
+        header.php
+        index.php
+        portfolio.php
+        privacypolicy.php
+        slider.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/bootstrap.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   aboutus.php
+        new file:   action_page.php
+        new file:   assets/css/.DS_Store
+        new file:   assets/css/bootstrap-grid.css
+        new file:   assets/css/bootstrap-grid.min.css
+        new file:   assets/css/bootstrap-reboot.css
+        new file:   assets/css/bootstrap-reboot.min.css
+        new file:   assets/css/bootstrap.css
+        new file:   assets/css/bootstrap.min.css
+        new file:   assets/css/fontawesome.css
+        new file:   assets/css/style.css
+        new file:   assets/img/1398951107_vesnushki.jpg
+        new file:   assets/img/img1.jpg
+        new file:   assets/img/img2.jpg
+        new file:   assets/img/img3.jpg
+        new file:   assets/img/img4.png
+        new file:   assets/img/login.png
+        new file:   assets/img/slider1.jpg
+        new file:   assets/img/slider2.jpg
+        new file:   assets/img/slider3.jpg
+        new file:   assets/img/slider4.jpg
+        new file:   assets/img/slider5.jpg
+        new file:   assets/js/bootstrap.bundle.js
+        new file:   assets/js/bootstrap.bundle.min.js
+        new file:   assets/js/bootstrap.js
+        new file:   assets/js/bootstrap.min.js
+        new file:   assets/js/bootstrap.min.js.map
+        new file:   assets/js/jquery.js
+        new file:   contact.php
+        new file:   footer.php
+        new file:   header.php
+        new file:   index.php
+        new file:   portfolio.php
+        new file:   privacypolicy.php
+        new file:   slider.php
+
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git commit -am 'fixed work'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'as comp@as.(none)')
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$  git config --global user.email "you@example.com"
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$  git config --global user.email "tauseefahmed075@gmail.com"
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$   git config --global user.name "Your Name"
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$   git config --global user.name "tauseef128"
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   aboutus.php
+        new file:   action_page.php
+        new file:   assets/css/.DS_Store
+        new file:   assets/css/bootstrap-grid.css
+        new file:   assets/css/bootstrap-grid.min.css
+        new file:   assets/css/bootstrap-reboot.css
+        new file:   assets/css/bootstrap-reboot.min.css
+        new file:   assets/css/bootstrap.css
+        new file:   assets/css/bootstrap.min.css
+        new file:   assets/css/fontawesome.css
+        new file:   assets/css/style.css
+        new file:   assets/img/1398951107_vesnushki.jpg
+        new file:   assets/img/img1.jpg
+        new file:   assets/img/img2.jpg
+        new file:   assets/img/img3.jpg
+        new file:   assets/img/img4.png
+        new file:   assets/img/login.png
+        new file:   assets/img/slider1.jpg
+        new file:   assets/img/slider2.jpg
+        new file:   assets/img/slider3.jpg
+        new file:   assets/img/slider4.jpg
+        new file:   assets/img/slider5.jpg
+        new file:   assets/js/bootstrap.bundle.js
+        new file:   assets/js/bootstrap.bundle.min.js
+        new file:   assets/js/bootstrap.js
+        new file:   assets/js/bootstrap.min.js
+        new file:   assets/js/bootstrap.min.js.map
+        new file:   assets/js/jquery.js
+        new file:   contact.php
+        new file:   footer.php
+        new file:   header.php
+        new file:   index.php
+        new file:   portfolio.php
+        new file:   privacypolicy.php
+        new file:   slider.php
+
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ code .
+bash: code: command not found
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ code .
+bash: code: command not found
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git commit -am 'our project'
+[master (root-commit) c877fed] our project
+ 35 files changed, 22346 insertions(+)
+ create mode 100644 aboutus.php
+ create mode 100644 action_page.php
+ create mode 100644 assets/css/.DS_Store
+ create mode 100644 assets/css/bootstrap-grid.css
+ create mode 100644 assets/css/bootstrap-grid.min.css
+ create mode 100644 assets/css/bootstrap-reboot.css
+ create mode 100644 assets/css/bootstrap-reboot.min.css
+ create mode 100644 assets/css/bootstrap.css
+ create mode 100644 assets/css/bootstrap.min.css
+ create mode 100644 assets/css/fontawesome.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/img/1398951107_vesnushki.jpg
+ create mode 100644 assets/img/img1.jpg
+ create mode 100644 assets/img/img2.jpg
+ create mode 100644 assets/img/img3.jpg
+ create mode 100644 assets/img/img4.png
+ create mode 100644 assets/img/login.png
+ create mode 100644 assets/img/slider1.jpg
+ create mode 100644 assets/img/slider2.jpg
+ create mode 100644 assets/img/slider3.jpg
+ create mode 100644 assets/img/slider4.jpg
+ create mode 100644 assets/img/slider5.jpg
+ create mode 100644 assets/js/bootstrap.bundle.js
+ create mode 100644 assets/js/bootstrap.bundle.min.js
+ create mode 100644 assets/js/bootstrap.js
+ create mode 100644 assets/js/bootstrap.min.js
+ create mode 100644 assets/js/bootstrap.min.js.map
+ create mode 100644 assets/js/jquery.js
+ create mode 100644 contact.php
+ create mode 100644 footer.php
+ create mode 100644 header.php
+ create mode 100644 index.php
+ create mode 100644 portfolio.php
+ create mode 100644 privacypolicy.php
+ create mode 100644 slider.php
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git remote add origin https://github.com/tauseef128/webdevelopment
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git remote add origin https://github.com/tauseef128/webdevelopment.git
+fatal: remote origin already exists.
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git push -u origin master
+
+
+
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': remote: Anonymous access to tauseef128/webdevelopment.git denied.
+fatal: Authentication failed for 'https://github.com/tauseef128/webdevelopment/'
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)
+$ git push -u origin master
+To https://github.com/tauseef128/webdevelopment
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/tauseef128/webdevelopment'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+as comp@as MINGW64 /d/xampp/htdocs/pandey (master)

@@ -1,0 +1,103 @@
+.heading-style
+
+{color: red;
+		font-style: verdana;
+		font-size: 50px;
+
+
+
+	}
+.header{
+	color: white;
+}
+
+.new
+
+{color: #ffff;
+		font-style: verdana;
+		font-size: 35px;
+margin: 20px;
+padding: 10px;
+text-align: center;
+
+
+
+	}
+
+
+	.logo
+
+	{
+padding-right: 20px !important;
+	}
+
+
+	.carousel-item > img{
+		height: 60vh !important;
+	}
+
+	.main-content{
+		min-height: calc(100vh - 25vh);
+	}
+
+	.footer
+	{
+		background-color: #343a40;
+		/*position: fixed;*/
+		bottom: 0;
+		height: 25%;
+	}
+
+/*.footer div.company-portion span.company-name{
+	color: #ffff;
+	padding-left: 25px;
+}*/
+.footer div.company-portion h5{
+	color: #ffff;
+	padding-left: 25px;
+}
+.footer div.company-portion >p{
+	color: #ffff;
+	/*padding-left: 25px;*/
+}
+.footer div.links-heading >h5{
+	color: #ffff;
+	padding-left: 25px;
+}
+.footer ul.unstyle-list {
+	list-style-type: none;
+	color: #ffff;
+}
+.footer ul.unstyle-list a{
+	color: #ffff;
+}
+
+.footer ul.unstyle-list a:hover{
+	margin-left: 5px;
+}
+/*.slider
+{
+	position: fixed;
+}*/
+
+.footer ul.social-icon a{
+
+	font-size: 30px;
+	padding: 7px;
+	color: #ffffff;
+}
+
+.footer ul.social-icon a:hover{
+	font-size: 40px;
+	color: yellow;
+	transition: 1s;
+}
+
+.footer p.footer-link > a{
+	color: white;
+	transition: 1s;
+}
+.footer p.footer-link > a:hover{
+	font-size: 20px;
+	color: purple;
+}
