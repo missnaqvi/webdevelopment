@@ -94,7 +94,7 @@
 
 
 <nav class="navbar navbar-expand-md rounded footer navbar-light">
-	<a href="#" class="navbar-brand"><img src="assets/img/logo.png" class="img-fluid logo" height="100" width="100">UI Learning</a>
+	<a href="#" class="navbar-brand nav-link"><img src="assets/img/logo.png" class="img-fluid logo" height="100" width="100">UI Learning</a>
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsible-div" bg-primary">
 		<span class="navbar-toggler-icon"></span>
 	</button>
