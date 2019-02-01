@@ -108,4 +108,6 @@ padding-right: 20px !important;
 
 .port > img{
 		height: 60vh !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
