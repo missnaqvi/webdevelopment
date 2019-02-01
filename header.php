@@ -191,6 +191,6 @@
 				<button class="btn btn-success">Submit</button>
 				<button class="btn btn-primary" data-dismiss="modal">Close</button>
 			</div>	
-		</div>	
+		</div>
 	</div>
 </div>
