@@ -139,33 +139,33 @@ console.log(i);
 i++
  }*/
 
- function add(){
+ /*function add(){
 	var a=10;
 	var b=5;
 	var addition=a+b;
 	console.log(addition);
 
-}
+}*/
 /*add();*/
 
-function sub(){
+/*function sub(){
 	var a=10;
 	var b=5;
 	var subtract=a-b;
 	console.log(subtract);
 
-}
+}*/
 /*sub();*/
 
-function mul(){
+/*function mul(){
 	var a=10;
 	var b=5;
 	var multiply=a*b;
 	console.log(multiply);
 
 }
-/*mul();
-*/
+mul();
+
 
 function div(){
 	var a=10;
@@ -173,9 +173,9 @@ function div(){
 	var divide=a/b;
 	console.log(divide);
 
-}
+}*/
 /*div();*/
-var opt=div;
+/*var opt=div;
 switch (opt)
 {
 	case add:
@@ -192,8 +192,65 @@ switch (opt)
 	break;
 	default:
 	console.log('Invalid Input');
+}*/
+
+function add(a,b)
+{
+	var sum = a+b;
+	console.log(sum);
+}
+/*add(2,5);*/
+
+function sub(a,b){
+	var subtract=a-b;
+	console.log(subtract);
+
 }
 
+function mul(a,b){
+	var multiply=a*b;
+	console.log(multiply);
+
+}
+function div(a,b){
+	var divide=a/b;
+	console.log(divide);
+
+}
+
+var opt=mul;
+switch (opt)
+{
+case add:
+	add(1,2);
+	break;
+	case sub:
+	sub(3,1);
+	break;
+	case mul:
+	mul(2,2);
+	break;
+	case div:
+	div(10,5);
+	break;
+	default:
+	console.log('Invalid Input');
+}
+
+var fruits = ['Mango','PineApple','Apple','Orange']
+/*console.log(fruits[3]);
+console.log(fruits.length-1);*/
+
+/*for (var i = 0; i < fruits.length; i++) {
+	fruits[i]
+	console.log(fruits[i]);
+}*/
+var i=0;
+while (i < fruits.length)
+{
+console.log(fruits[i]);
+i++;
+}
 
 </script>
 

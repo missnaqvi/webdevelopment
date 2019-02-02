@@ -1,0 +1,13 @@
+Parameters
+Arguments
+
+function sum(a,b);
+sum(2,3);
+here a & b are parameters
+here 2 & 3 are arguments
+
+
+Array:
+1. index array
+   starts with 0
+   to know the last variable index=n-1
