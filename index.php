@@ -8,9 +8,14 @@ require_once 'header.php'
 
 
 <!-- slider start -->
-<?php require_once 'slider.php'
-  ?>
+<!-- <?php require_once 'slider.php'
+  ?> -->
 <!-- slider end -->
+
+<label id="email-label">Email</label>
+<input class="form-control test" type="text" name="test" id="test12" value="">
+<button class="btn btn-primary submit">Submit</button>
+
 
 
 <!-- footer start -->
@@ -245,12 +250,21 @@ console.log(fruits.length-1);*/
 	fruits[i]
 	console.log(fruits[i]);
 }*/
-var i=0;
+/*var i=0;
 while (i < fruits.length)
 {
 console.log(fruits[i]);
 i++;
-}
+}*/
+
+$(document).ready(function(){
+	$('.submit').click(function(){
+		var value = $('#test').attr('name1','test2');
+		$('.test').removeAttr('id');
+		console.log(value);
+	});
+});
+
 
 </script>
 
