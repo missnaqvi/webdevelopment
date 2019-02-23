@@ -12,10 +12,58 @@ require_once 'header.php'
   ?> -->
 <!-- slider end -->
 
-<label id="email-label">Email</label>
+<!-- <label id="email-label">Email</label>
 <input class="form-control test" type="text" name="test" id="test12" value="">
 <button class="btn btn-primary submit">Submit</button>
 
+<br> -->
+
+<?php 
+/*$table=2;
+$i=1;*/
+/*for ($i=1; $i <=10 ; $i++) { 
+	echo $table. 'x'.$i .'='.$table*$i."<br>";
+
+}*/
+
+/*while ($i <= 10) {
+echo $table.'x'.$i.'='.$table*$i."<br>";
+$i++;	
+}*/
+
+
+/*do{
+	echo $table.'x'.$i.'='.$table*$i."<br>";
+	$i++;
+}
+while ($i <= 10);*/
+
+/*for ($i=1; $i <=5 ; $i++) 
+{ 
+	for ($j=1; $j <=$i ; $j++) 
+	{ 
+		echo $i;
+		}
+		echo "<br>";
+}
+
+echo "<br>";
+
+for ($i=5; $i >=1 ; $i--) 
+{ 
+	for ($j=1; $j <=$i ; $j++) 
+	{ 
+		echo $i;
+	}
+	echo "<br>";
+}*/
+
+
+/*Index Array*/
+
+
+
+ ?>
 
 
 <!-- footer start -->
